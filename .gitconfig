@@ -1,0 +1,10 @@
+[gui]
+	recentrepo = C:/git gui/Git-2.35.1.2-64-bit
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = ravananprathap
+	email = b.prathappothan@gmail.com
